@@ -24,10 +24,10 @@ DayBreak Server is a Spring Boot application that provides a REST API for access
 
 ### Setup
 
-1. **Create poem directory**: Create a `daybreak` folder in your Documents directory:
+1. **Create poem directory**: Create a `pi/daybreak` folder in your Documents directory:
    ```
-   ~/Documents/daybreak/     (Linux/macOS)
-   C:\Users\{User}\Documents\daybreak\  (Windows)
+   ~/Documents/pi/daybreak/     (Linux/macOS)
+   C:\Users\{User}\Documents\pi\daybreak\  (Windows)
    ```
 
 2. **Add sample poems**: Create markdown files with the following structure:

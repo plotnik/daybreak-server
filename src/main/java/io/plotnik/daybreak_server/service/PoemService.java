@@ -26,7 +26,7 @@ public class PoemService {
     public void init() {
         try {
             String userHome = System.getProperty("user.home");
-            Path daybreakDir = Paths.get(userHome, "Documents", "daybreak");
+            Path daybreakDir = Paths.get(userHome, "Documents", "pi", "daybreak");
 
             if (!Files.isDirectory(daybreakDir)) {
                 System.out.println("WARN: Directory not found: " + daybreakDir);
