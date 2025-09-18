@@ -42,6 +42,11 @@ public class PoemService {
         }
     }
 
+    public void reloadPoemFiles() {
+        poemsByFile.clear();
+        init();
+    }
+    
     private void parseAndStorePoemFile(Path filePath) {
         try {
             List<String> lines = Files.readAllLines(filePath);

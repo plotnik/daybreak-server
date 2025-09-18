@@ -55,4 +55,11 @@ public class PoemController {
                 .map(ResponseEntity::ok)
                 .orElse(ResponseEntity.notFound().build());
     }
+
+    @GetMapping("/admin/reload")
+    @Operation(summary = "Reload poem files from the filesystem")
+    public ResponseEntity<Void> reloadPoemFiles() {
+        poemService.reloadPoemFiles();
+        return ResponseEntity.ok().build();
+    }
 }
